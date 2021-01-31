@@ -13,6 +13,8 @@ body {
     width: 100%;
     font-family: 'Source Sans Pro', sans-serif;
     background-color: cadetblue;
+    background-image: url("https://www.actualitix.com/wp-content/uploads/2019/11/carte-nord-departement-768x558.jpg");
+    background-size: 100%;
 }
 
 #container{
@@ -34,6 +36,11 @@ h2{
     color: grey;
     font-size: 30px;
     margin: 10px 0;
+}
+
+.description:hover {
+    background-color: #E9EFF1;
+    border-radius: 10px 10px;
 }
 
 #top{
@@ -69,4 +76,8 @@ img{
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+iframe{
+    margin: 10px 0;
 }
